@@ -1,0 +1,12 @@
+{
+  "name": "Project name",
+  "short_name": "Project name",
+  "description": "Project name",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "id": "/",
+  "start_url": "/"
+}
