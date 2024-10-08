@@ -1,0 +1,5 @@
+ADAPTERS:
+
+Here we will store the adapters, formatting files and everything concerned with manipulating the DTO. 
+
+

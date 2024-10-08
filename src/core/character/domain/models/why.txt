@@ -1,0 +1,7 @@
+MODELS:
+
+Here we will store the models related to this feature. 
+
+"Model is the thing that view will see" (like the formatted data)
+
+

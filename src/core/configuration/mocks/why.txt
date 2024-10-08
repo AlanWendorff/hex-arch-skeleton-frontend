@@ -1,0 +1,3 @@
+The purpose of this folder is to store all the mocks related to API.
+
+

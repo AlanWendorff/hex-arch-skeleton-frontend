@@ -1,0 +1,3 @@
+The purpose of this folder is to store dto that are shared between features.
+
+"IInfoDTO" its a shared node between endpoints of rick and morty API.

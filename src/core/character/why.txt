@@ -1,0 +1,3 @@
+One feature of rick and morty API is called as "character".
+
+

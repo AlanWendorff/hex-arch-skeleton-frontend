@@ -1,6 +1,9 @@
+//import { API_KEY } from '../constants/env'; *If its necesary 
+
 const headers = {
   'Content-Type': 'application/json',
   'Access-Control-Allow-Origin': '*',
+  // Authorization: `Bearer ${API_KEY}` *If its necesary 
 };
 
 const http = {

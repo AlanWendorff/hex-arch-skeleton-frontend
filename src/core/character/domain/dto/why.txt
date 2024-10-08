@@ -1,0 +1,5 @@
+DATA TRANSFER OBJECT:
+
+Here we will store the DTO related to this feature. 
+
+

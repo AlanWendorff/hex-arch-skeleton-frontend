@@ -1,0 +1,6 @@
+The purpose of this folder is to store Http functions.
+
+We can create multiple http files with different configurations or different fetching libraries.
+
+This helps to separate the fetching methods from the fetching library.
+

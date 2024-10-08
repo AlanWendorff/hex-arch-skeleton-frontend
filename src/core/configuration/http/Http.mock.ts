@@ -1,4 +1,4 @@
-import { META_200 } from '../mocks/meta.api';
+import { INFO_MOCK } from '../mocks/Info.mock';
 
 const httpMock = {
   get: async <T>(url: string, body?: any) => {
@@ -6,10 +6,8 @@ const httpMock = {
       setTimeout(
         () =>
           resolve({
-            meta: { ...META_200.get, endpoint: url },
-            response: {
-              products: []
-            }
+            info: INFO_MOCK,
+            results: []
           }),
         1000
       )
@@ -21,10 +19,8 @@ const httpMock = {
       setTimeout(
         () =>
           resolve({
-            meta: { ...META_200.post, endpoint: url },
-            response: {
-              products: []
-            }
+            meta: INFO_MOCK,
+            results: []
           }),
         1000
       )
@@ -36,10 +32,8 @@ const httpMock = {
       setTimeout(
         () =>
           resolve({
-            meta: { ...META_200.put, endpoint: url },
-            response: {
-              products: []
-            }
+            meta: INFO_MOCK,
+            results: []
           }),
         1000
       )
@@ -51,10 +45,8 @@ const httpMock = {
       setTimeout(
         () =>
           resolve({
-            meta: { ...META_200.delete, endpoint: url },
-            response: {
-              products: []
-            }
+            meta: INFO_MOCK,
+            results: []
           }),
         1000
       )
