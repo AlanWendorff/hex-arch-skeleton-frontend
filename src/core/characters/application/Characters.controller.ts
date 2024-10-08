@@ -1,5 +1,5 @@
 import ICharactersRepository from '../domain/repositories/Characters.repository';
-import charactersService from '../domain/services/Character.service';
+import charactersService from '../domain/services/Characters.service';
 
 interface ICharactersController extends ICharactersRepository {}
 
