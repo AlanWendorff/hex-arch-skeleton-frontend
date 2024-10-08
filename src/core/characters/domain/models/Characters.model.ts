@@ -1,4 +1,4 @@
-type TCharacterModel = {
+type TCharactersModel = {
   results: TSingleCharacter[];
 };
 
@@ -9,4 +9,4 @@ type TSingleCharacter = {
   extra: string;
 };
 
-export default TCharacterModel;
+export default TCharactersModel;

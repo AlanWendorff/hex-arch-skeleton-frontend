@@ -1,6 +1,6 @@
 import IInfoDTO from '@/core/configuration/http/dto/Info.dto';
 
-interface ICharacterDTO {
+interface ICharactersDTO {
   info: IInfoDTO;
   results: ISingleCharacter[];
 }
@@ -25,4 +25,4 @@ interface IOrigin {
   url: string;
 }
 
-export default ICharacterDTO;
+export default ICharactersDTO;
