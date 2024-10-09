@@ -8,6 +8,11 @@
 
 The modularity of the project has the advantage of being able to consume ```src/core``` from any framework or library. This allows to have many frameworks coexisting in the same project.
 
+Projects using this architecture:
+- https://github.com/R4k4210/flashcards/tree/feature/hexagonal-vertical-slicing
+- https://github.com/AlanWendorff/we-got-lyrics-frontend
+
+
 ![folder structure](https://github.com/user-attachments/assets/de3aa958-7f99-4cbf-a0ea-69b7506bc4c4)
 
 ## Getting Started
