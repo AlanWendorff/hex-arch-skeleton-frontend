@@ -14,7 +14,7 @@ const http = {
       headers
     });
 
-    return response as T;
+    return response.data as T;
   },
   post: async <T>(url: string, body: Record<string, any>) => {
     const response = await fetch(url, {
@@ -23,7 +23,7 @@ const http = {
       body: JSON.stringify(body)
     });
 
-    return response as T;
+    return response.body as T;
   },
   put: async <T>(url: string, body: Record<string, any>) => {
     const response = await fetch(url, {
@@ -32,7 +32,7 @@ const http = {
       body: JSON.stringify(body)
     });
 
-    return response as T;
+    return response.body as T;
   },
   delete: async <T>(url: string) => {
     const response = await fetch(url, {
@@ -40,7 +40,7 @@ const http = {
       headers
     });
 
-    return response as T;
+    return response.body as T;
   }
 };
 
